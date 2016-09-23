@@ -1,0 +1,28 @@
+{
+  "driver-api": {
+    "host": "localhost",
+    "port": 9300,
+    "api_key": "MY_APIK_KEY",
+    "refresh_frequency": 300,
+    "router_port": 9301
+  },
+  "driver": {
+    "nodes": [
+    {
+      "host": "127.0.0.1",
+      "port": 9100
+    }
+  ]},
+  "main_app": {
+    "host": "127.0.0.1",
+    "port": 3001 
+  },
+  "server":{
+    "host": "localhost",
+    "port": 9080
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379
+  }
+}
