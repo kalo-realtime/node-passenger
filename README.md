@@ -6,8 +6,8 @@ Responsibilities
 
 1. An endpoint for passenger websocket connections
 2. Authenticate passengers through backend-api
-3. Communication intermediary for driver devices and backend
-4. Downstream gps and channel events from the driver server
+3. Communication intermediary for passenger devices and backend
+4. Downstream driver gps and channel events
 5. Provide a current snapshot of drivers from the backend server
 
 
@@ -30,7 +30,7 @@ Installation
 
 2.&nbsp;Install dependencies.
 ```
-  cd driver-service/
+  cd passenger-service/
   npm install
 ```
 3.&nbsp;Configure backend API key and other configurations in config/default.json.
